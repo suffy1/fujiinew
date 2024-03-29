@@ -1,0 +1,17 @@
+body > .left > .right {
+  align-items: normal;
+  
+}
+.left {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0 0 2px rgb(255, 196, 0), 0 0 15px rgb(255, 196, 0);
+}
+.right{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 0 0 2px rgb(255, 196, 0), 0 0 15px rgb(255, 196, 0);
+}
+}

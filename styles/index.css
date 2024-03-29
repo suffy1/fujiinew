@@ -1,0 +1,83 @@
+body {
+  background-image: url("../fotolar/Yeni_Proje.png");
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  gap: 20px;
+  z-index: 1;
+}
+
+.astrabig {
+  left: -310px;
+  top: 210px;
+  position: fixed;
+  filter: drop-shadow(10px 10px 10px) rgb(yellow);
+  z-index: 1;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.astrabig:hover:first-child {
+  margin: 10px;
+  padding: 10px;
+  filter: drop-shadow(10px 10px 10px) rgb(yellow);
+}
+.astrabig:hover:last-child {
+  margin: 0px;
+  padding: 0px;
+  filter: drop-shadow(0px 0px 25px #ffae0060);
+  transform: scale(1.2);
+}
+.fjlogo {
+  width: 293px;
+  height: 117px;
+  filter: drop-shadow(0px 0px 19px #ffbb0042);
+  animation: logoyukariasagi 1s ease-out;
+}
+.astrabig {
+  animation: kjindex 1.2s ease-out;
+}
+
+
+.anamenu > img > a > a > a {
+align-items: center;
+
+}
+
+
+.menu {
+  animation: sagmenuindex 1.8s ease-in-out;
+  position: fixed;
+  top: 190;
+  right: 0;
+  width: 130px;
+  height: 320px;
+  background-color: #ffc400c4;
+  border-left: 8px solid #ffa600;
+  border-top: 8px solid #ffd000;
+  border-bottom: 8px solid #ffd000;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  padding: 15px;
+}
+
+.menu ul {
+  animation: butonlarindex 1.8s ease-in-out;
+  text-decoration: #ffa600;
+  list-style: disc;
+  padding: 20px;
+  margin: 0px;
+}
+
+.menu li { 
+  box-shadow: 10 0 120px, #00ff0d;
+  cursor: pointer;
+   color: azure;
+  margin-bottom: 90px;
+}
+
+.content {
+  margin-right: 1px; /* Menü genişliği + padding */
+  /* Diğer içerik için gerekli stillendirme */
+}
