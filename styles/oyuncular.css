@@ -35,7 +35,6 @@ body > h1 {
     rgba(255, 196, 0, 0.13) 0 40%,
     rgba(255, 196, 0, 0.13) 70%
   );
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
 }

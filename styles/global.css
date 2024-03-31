@@ -140,3 +140,11 @@ a.styleddiscord:hover {
     transform: translateX(330px);
   }
 }
+@keyframes butonlarglobals {
+  from {
+    animation-delay: 1s;
+    opacity: 0%;
+    transform: translateX(150px);
+    animation-iteration-count: 4;
+  }
+}
