@@ -1,5 +1,6 @@
 body {
   background-image: url("../fotolar/Yeni_Proje.png");
+  background-size: cover ;
   box-sizing: border-box;
   justify-content: center;
   flex-direction: column;
@@ -30,12 +31,14 @@ body {
   transform: scale(1.2);
 }
 .fjlogo {
+  z-index: 2;
   width: 293px;
   height: 117px;
   filter: drop-shadow(0px 0px 19px #ffbb0042);
   animation: logoyukariasagi 1s ease-out;
 }
 .astrabig {
+  z-index: 1;
   animation: kjindex 1.2s ease-out;
 }
 
@@ -85,8 +88,7 @@ align-items: center;
 }
 
 .content {
-  margin-right: 1px; /* Menü genişliği + padding */
-  /* Diğer içerik için gerekli stillendirme */
+  margin-right: 1px; 
 }
 
 @media screen and (max-width: 600px){
@@ -95,8 +97,32 @@ align-items: center;
 }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1050px){
   .astrabig{
     display: none;
   }
   }
+
+  @media screen and (max-width: 1050px){
+    .styledyt{
+      display:block;
+    }
+  }
+    
+    @media screen and (min-width: 1049px){
+      .styledyt{
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 601px){
+      .hakkindabtn{
+        display:block;
+      }
+    }
+      
+      @media screen and (min-width: 600px){
+        .hakkindabtn{
+          display: none;
+        }
+      }

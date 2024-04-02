@@ -88,6 +88,63 @@ a.styleddiscord:hover {
   transform: scale(1.2);
   background: #0142f3;
 }
+
+
+a.styledyt {
+  animation: butonlarindex 1.4s ease-in-out;
+  z-index: 2;
+  text-align: center;
+  width: 205px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #f3010185;
+  transition: 0.4s;
+  box-shadow: 0 0 14px rgba(255, 0, 0, 0.575), 0 0 25px rgb(192, 37, 37);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.styledyt:hover {
+  transform: scale(1.2);
+  background: #f30101;
+}
+
+
+
+a.hakkindabtn {
+  animation: butonlarindex 1.4s ease-in-out;
+  z-index: 2;
+  text-align: center;
+  width: 205px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #aa01f385;
+  transition: 0.4s;
+  box-shadow: 0 0 14px rgba(200, 0, 255, 0.575), 0 0 25px rgb(125, 37, 192);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.hakkindabtn:hover {
+  transform: scale(1.2);
+  background: #a201f3;
+}
+
+
+
+
 @keyframes logoyukariasagi {
   from {
     transform: translateY(-50px);

@@ -1,25 +1,29 @@
+.astra {
+  filter: drop-shadow(0px 0px 129px #d993ffb8);
+  animation: astra 2.4s ease-out;
+  width: 500px;
+  height: auto;
+  position: fixed;
+  right: -90px;
+  bottom: -40px;
+  z-index: 1;
+}
+
+
+
 .jet{
+  z-index: 1;
   filter: drop-shadow(0px 0px 129px #d798f9a8);
   animation: jett 2s ease-out;
   width: 700px;
   height: auto;
   position: fixed;
   left: 0px;
-  top: 240px;
-  z-index: 1;
+  top: 290px;
+  
 }
 
-.astra {
-  filter: drop-shadow(0px 0px 129px #d993ffb8);
-  animation: astra 2.4s ease-out;
-  width: 900px;
-  height: auto;
-  position: fixed;
-  right: 0px;
-  left: 1300px;
-  top: 100px;
-  z-index: 1;
-}
+
 
 body{
   z-index: 2;
@@ -80,6 +84,13 @@ a.styled:hover {
   background: #c09fcc;
   transform: scale(1.2);
 }
+
+
+@media screen and (max-width: 1300px){
+  .jet{
+    display: none;
+  }
+  }
 
 
 
