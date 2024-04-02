@@ -7,8 +7,6 @@ body {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  padding: 30px;
 }
 div {
   background-color: rgba(0, 255, 255, 0);
