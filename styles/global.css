@@ -194,7 +194,7 @@ a.hakkindabtn:hover {
     
     animation-delay: 7s;
     opacity: 80%;
-    transform: translateX(330px);
+    transform: translateX(230px);
   }
 }
 @keyframes butonlarglobals {

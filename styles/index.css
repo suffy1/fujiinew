@@ -53,23 +53,23 @@ align-items: center;
 .menu {
   min-width: 130px;
   z-index: 1;
-  animation: sagmenuindex 1.8s ease-in-out;
+  animation: sagmenuindex 1.5s ease-in-out;
   position: fixed;
   top: 190;
   right: 0;
   width: 30px;
   height: 40px;
-  background-color: #e263e097;
-  border-left: 8px solid #dcb6f2;
-  border-top: 8px solid #dcb6f2;
-  border-bottom: 8px solid #dcb6f2;
+  background-color: #ffa600a8;
+  border-left: 8px solid #feb200;
+  border-top: 8px solid #feb200;
+  border-bottom: 8px solid #feb200;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   padding: 15px;
 }
 
 .menu ul {
-  animation: butonlarglobals 2.1s ease-in-out;
+  animation: butonlarglobals 1.9s ease-in-out;
   list-style: disc;
   padding: 10px;
   margin-left: 7px;
@@ -91,6 +91,11 @@ align-items: center;
   margin-right: 1px; 
 }
 
+
+
+
+
+
 @media screen and (max-width: 600px){
 .menu{
   display: none;
@@ -103,6 +108,11 @@ align-items: center;
   }
   }
 
+
+
+
+
+
   @media screen and (max-width: 1050px){
     .styledyt{
       display:block;
@@ -114,6 +124,11 @@ align-items: center;
         display: none;
       }
     }
+
+
+
+
+
 
     @media screen and (max-width: 601px){
       .hakkindabtn{
