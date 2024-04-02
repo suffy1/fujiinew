@@ -1,7 +1,7 @@
 
 body {
   overflow-x: hidden;
-  background-repeat: cover;
+  background-size: cover;
   background-image: url("../fotolar/Yeni_Proje_O.png");
   display:block;
   flex-direction:column;
