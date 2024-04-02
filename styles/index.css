@@ -88,3 +88,9 @@ align-items: center;
   margin-right: 1px; /* Menü genişliği + padding */
   /* Diğer içerik için gerekli stillendirme */
 }
+
+@media screen and (max-width: 600px){
+.menu{
+  display: none;
+}
+}
