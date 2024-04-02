@@ -22,7 +22,7 @@ body > div {
 .left > h1 {
   top: 200px;
   font-size: 40px;
-  text-shadow: 0 0 2px rgb(255, 196, 0), 0 0 15px rgb(255, 196, 0);
+  text-shadow: 0 0 0px rgb(255, 196, 0), 0 0 0px rgb(255, 196, 0);
   background-image: linear-gradient(
     to bottom,
     rgba(255, 196, 0, 0) 0 40%,
