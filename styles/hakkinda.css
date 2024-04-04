@@ -1,42 +1,44 @@
-.astra {
-  filter: drop-shadow(0px 0px 129px #d993ffb8);
-  animation: astra 2.4s ease-out;
-  width: 500px;
-  height: auto;
-  position: fixed;
-  right: -90px;
-  bottom: -40px;
-  z-index: 1;
-}
 
 
 
-.jet{
-  z-index: 1;
-  filter: drop-shadow(0px 0px 129px #d798f9a8);
-  animation: jett 2s ease-out;
-  width: 700px;
-  height: auto;
-  position: fixed;
-  left: 0px;
-  top: 290px;
-  
-}
+
+
 
 
 
 body{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   z-index: 2;
-  background: rgb(181, 97, 214);
-  background: radial-gradient(circle, rgba(78, 57, 89, 0.817) 0%, rgb(101, 51, 107)59%, rgb(107, 80, 107) 100%);
+  background: rgb(214, 181, 97);
+  background: radial-gradient(circle, rgba(90, 4, 130, 0.817) 0%, rgb(125, 8, 179)59%, rgb(117, 4, 204) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
-  margin-left: 300px;
-  margin-right: 300px;
   padding: 30px;
   }
+
+  .jet {
+    position: fixed;
+    z-index: -1;
+    filter: drop-shadow(0px 0px 129px #d400ff98);
+    animation: jett 2s ease-out;
+    width: 500px;
+    height: auto;
+    bottom: -100px;
+    }
+    .jet2 {
+      position: fixed;
+      z-index: -1;
+      filter: drop-shadow(0px 0px 129px #d400ff98);
+      animation: jett 2s ease-out;
+      width: 330px;
+      height: auto;
+      bottom: 0px;
+      }
 
 .button-container {
   animation: butson 2.2s ease-out;
@@ -47,21 +49,37 @@ body{
 
 
 .baslik {
-  z-index: 2;
+  position: relative;
   animation: butonlarindex 1.2s ease-out;
   text-shadow: 0px 0px 40px rgb(0, 0, 0);
-  color: rgb(209, 195, 225);
+  color: rgb(255, 255, 255);
 }
-
-p{
+ .s1{
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
   font-size: 20px;
-  z-index: 2;
+  z-index: 1;
   animation: butonlarindex 2s ease-out;
   color: rgb(255, 255, 255);
   text-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
+.s2{
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  z-index: 1;
+  animation: butonlarindex 2s ease-out;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+
 
 a.styled {
+  position: relative;
   text-align: center;
   width: 199px;
   font-size: 23px;
@@ -72,16 +90,16 @@ a.styled {
   border: 1px solid transparent;
   outline: none;
   cursor: pointer;
-  background: #b196c379;
+  background: #ffffff47;
   transition: 0.8s;
   transition-timing-function: ease-in-out;
-  box-shadow: 0 0 125px rgba(163, 116, 192, 0.556), 0 0 235px rgb(156, 105, 211);
+  box-shadow: 0 0 125px rgba(177, 2, 226, 0.556), 0 0 235px rgb(147, 44, 191);
   padding: 15px 30px;
   text-decoration: none;
   color: #ffffff;
 }
 a.styled:hover {
-  background: #c09fcc;
+  background: #a316ee;
   transform: scale(1.2);
 }
 
@@ -93,9 +111,35 @@ a.styled:hover {
   }
 
 
+  @media screen and (max-width: 599px){
+    .s1{
+      display: none;
+    }
+    }
 
+    @media screen and (max-width: 600px){
+      .s2{
+        display:block;
+      }
+    }
+      
+      @media screen and (min-width: 600px){
+        .s2{
+          display: none;
+        }
+      }
 
-
+      @media screen and (max-width: 600px){
+        .jet2{
+          display:block;
+        }
+      }
+        
+        @media screen and (min-width: 600px){
+          .jet2{
+            display: none;
+          }
+        }
 
 @keyframes butson {
   from {
@@ -127,16 +171,8 @@ a.styled:hover {
   from {
     animation-delay: 1s;
     opacity: 0%;
-    transform: translateX(-300px);
+    transform: translateY(500px);
     animation-iteration-count: 4;
   }
 }
 
-@keyframes astra {
-  from {
-    animation-delay: 1s;
-    opacity: 0%;
-    transform: translateX(300px);
-    animation-iteration-count: 4;
-  }
-}

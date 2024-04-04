@@ -5,7 +5,7 @@ body {
   gap: 20px;
   display: flex;
 }
-body > div {
+body div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,20 +13,16 @@ body > div {
   flex-direction: column;
   gap: 20px;
 }
-.right > img {
+.right img {
   filter: drop-shadow(0px 0px 19px #ffd90044);
   border-radius: 20px;
   width: 100%;
   animation: maclarani 1.4s ease-out;
 }
-.left > h1 {
+.left h1 {
+  color: rgb(255, 191, 0);
   top: 200px;
   font-size: 40px;
-  text-shadow: 0 0 0px rgb(255, 196, 0), 0 0 0px rgb(255, 196, 0);
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 196, 0, 0) 0 40%,
-    rgba(255, 174, 0, 0) 70%
-  );
-  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 2px rgba(255, 196, 0, 0), 0 0 15px rgba(255, 196, 0, 0.346);
 }
+
