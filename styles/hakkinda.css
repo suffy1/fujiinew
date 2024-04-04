@@ -31,6 +31,7 @@ body{
     bottom: -100px;
     }
     .jet2 {
+      opacity: 75%;
       position: fixed;
       z-index: -1;
       filter: drop-shadow(0px 0px 129px #d400ff98);
@@ -72,7 +73,7 @@ body{
   z-index: 1;
   animation: butonlarindex 2s ease-out;
   color: rgb(255, 255, 255);
-  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  text-shadow: 5px 0px 15px rgb(0, 0, 0);
 }
 
 
