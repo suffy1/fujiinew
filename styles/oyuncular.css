@@ -1,7 +1,9 @@
 
 body {
+  background-color: #0f0e0e;
+  background-image: url("Yeni_Proje_O.png");
+  background-repeat: repeat-y;
   overflow-x: hidden;
-  background-image: url("../fotolar/Yeni_Proje_O.png");
   display:block;
   flex-direction:column;
   box-sizing: border-box;
@@ -11,7 +13,6 @@ body {
 
 
 div {
-  background-color: rgba(0, 255, 255, 0);
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
