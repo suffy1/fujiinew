@@ -24,7 +24,7 @@ a.styled {
   letter-spacing: 1px;
   border-radius: 15px;
   text-transform: uppercase;
-  border: 1px solid transparent;
+  border: 5px white;
   outline: none;
   cursor: pointer;
   background: #8b6b0079;
@@ -171,6 +171,13 @@ a.hakkindabtn:hover {
     animation-duration: 0.7s;
     opacity: 0%;
     transform: translateX(50px);
+  }
+}
+@keyframes maclarani2 {
+  from {
+    animation-duration: 0.7s;
+    opacity: 0%;
+    transform: translateY(50px);
   }
 }
 @keyframes oyuncularanim {

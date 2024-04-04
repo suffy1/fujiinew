@@ -1,4 +1,6 @@
 body {
+  background-color: #0f0e0e;
+  overflow-x: hidden;
   background-image: url("../fotolar/wpmac.png");
   box-sizing: border-box;
   padding: 50px;
@@ -26,3 +28,72 @@ body div {
   text-shadow: 0 0 2px rgba(255, 196, 0, 0), 0 0 15px rgba(255, 196, 0, 0.346);
 }
 
+
+
+
+div .left2alt{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.left2 img{
+  filter: drop-shadow(0px 0px 130px #ffd900a3);
+  animation: maclarani2 1.4s ease-out;
+  margin-top: 50px;
+  border-radius: 15px;
+  width: 100%;
+  height:auto ;
+}
+
+.left2 h1, .styled{
+  font-size: 25px;
+  padding: 10px;
+  color: rgb(255, 200, 0);
+  filter: drop-shadow(0px 0px 30px #000000b2);
+}
+
+
+
+
+
+
+@media screen and (max-width: 943px){
+  .right{
+    display: none;
+  }
+  }
+
+@media screen and (max-width: 943px){
+  .left{
+    display: none;
+  }
+  }
+
+@media screen and (max-width: 944px){
+  .left2{
+    display:block;
+  }
+}
+  
+  @media screen and (min-width: 944px){
+    .left2{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 944px){
+    .left2alt{
+      display:block;
+    }
+  }
+    
+    @media screen and (min-width: 944px){
+      .left2alt{
+        display: none;
+      }
+    }
