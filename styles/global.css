@@ -91,7 +91,7 @@ a.styleddiscord:hover {
 
 
 a.styledyt {
-  animation: butonlarindex 1.4s ease-in-out;
+  animation: butonlaryt 1.4s ease-in-out;
   z-index: 2;
   text-align: center;
   width: 205px;
@@ -118,7 +118,7 @@ a.styledyt:hover {
 
 
 a.hakkindabtn {
-  animation: butonlarindex 1.4s ease-in-out;
+  animation: butonlarhaknd 1.6s ease-out;
   z-index: 2;
   text-align: center;
   width: 205px;
@@ -156,6 +156,20 @@ a.hakkindabtn:hover {
     animation-delay: 7s;
     opacity: 0%;
     transform: translateY(150px);
+  }
+}
+@keyframes butonlarhaknd {
+  from {
+   scale: 25%;
+    opacity: 0%;
+    transform: translateY(290px);
+  }
+}
+@keyframes butonlaryt {
+  from {
+   scale: 15%;
+    opacity: 0%;
+    transform: translateY(220px);
   }
 }
 @keyframes butonlarglobal {

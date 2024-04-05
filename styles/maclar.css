@@ -16,13 +16,13 @@ body div {
   gap: 20px;
 }
 .right img {
-  filter: drop-shadow(0px 0px 19px #ffd90044);
+  filter: drop-shadow(0px 0px 19px #ff9d0044);
   border-radius: 20px;
   width: 100%;
   animation: maclarani 1.4s ease-out;
 }
 .left h1 {
-  color: rgb(255, 191, 0);
+  color: rgb(255, 136, 0);
   top: 200px;
   font-size: 40px;
   text-shadow: 0 0 2px rgba(255, 196, 0, 0), 0 0 15px rgba(255, 196, 0, 0.346);
@@ -42,7 +42,7 @@ div .left2alt{
 }
 
 .left2 img{
-  filter: drop-shadow(0px 0px 130px #ffd900a3);
+  filter: drop-shadow(0px 0px 130px #ff7b00a3);
   animation: maclarani2 1.4s ease-out;
   margin-top: 50px;
   border-radius: 15px;
@@ -53,7 +53,7 @@ div .left2alt{
 .left2 h1, .styled{
   font-size: 25px;
   padding: 10px;
-  color: rgb(255, 200, 0);
+  color: rgb(255, 128, 0);
   filter: drop-shadow(0px 0px 30px #000000b2);
 }
 
