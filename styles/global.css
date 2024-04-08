@@ -142,7 +142,30 @@ a.hakkindabtn:hover {
   background: #a201f3;
 }
 
-
+a.maclarbtn {
+  animation: butonlarhaknd 1.2s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 205px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #f37e0196;
+  transition: 0.4s;
+  box-shadow: 0 0 14px rgba(255, 119, 0, 0.575), 0 0 25px rgb(192, 96, 37);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.maclarbtn:hover {
+  transform: scale(1.2);
+  background: #f37a01;
+}
 
 
 @keyframes logoyukariasagi {
@@ -162,14 +185,14 @@ a.hakkindabtn:hover {
   from {
    scale: 25%;
     opacity: 0%;
-    transform: translateY(290px);
+    transform: translateY(100px);
   }
 }
 @keyframes butonlaryt {
   from {
    scale: 15%;
     opacity: 0%;
-    transform: translateY(220px);
+    transform: translateY(130px);
   }
 }
 @keyframes butonlarglobal {
