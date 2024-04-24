@@ -1,0 +1,223 @@
+body {
+  background-image: url("../fotolar/Yeni_Proje.png");
+  background-size: cover ;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  gap: 20px;
+  z-index: 1;
+}
+
+.astrabig {
+  left: -310px;
+  top: 210px;
+  position: fixed;
+  filter: drop-shadow(10px 10px 10px) rgb(rgb(255, 140, 0));
+  z-index: 1;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.astrabig:hover:first-child {
+  margin: 10px;
+  padding: 10px;
+  filter: drop-shadow(10px 10px 10px) rgb(rgb(255, 153, 0));
+}
+.astrabig:hover:last-child {
+  margin: 0px;
+  padding: 0px;
+  filter: drop-shadow(0px 0px 25px #ff88006b);
+  transform: scale(1.2);
+}
+.fjlogo {
+  margin-top: 80px;
+  z-index: 2;
+  width: 293px;
+  height: 117px;
+  filter: drop-shadow(0px 0px 19px #ffbb0042);
+  animation: logoyukariasagi 1s ease-out;
+}
+.astrabig {
+  z-index: 1;
+  animation: kjindex 0.5s ease-out;
+}
+
+
+.anamenu > img > a > a > a {
+align-items: center;
+
+}
+
+
+
+
+.menu {
+  animation: sagmenuindex 0.9s ease-in-out;
+  position: fixed;
+  right: 0;
+  width: 160px;
+  height: 140px;
+  background-color: #d2690069;
+  border-left: 20px solid #fe8300;
+  border-top: 4px solid #fe8300;
+  border-bottom: 4px solid #fe8300;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+
+}
+
+.menu ul {
+  color: #fe8300;
+  animation: butonlarglobals 1.3s ease-in-out;
+  list-style: disc;
+  margin: 20px;
+}
+
+.menu li { 
+  box-shadow: 10 0 120px, #00ff0d;
+  cursor: pointer;
+   color: rgb(255, 128, 0);
+  margin: 25px;
+  
+}
+
+.menu a{
+ font-size: small;
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  margin-right: 1px; 
+}
+
+span{
+  color: #b24400;
+}
+.duyuruindex{
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  width: 100%;
+  height: 40px;
+  background-color: #fe8300;
+  color: #ffffff;
+}
+
+.duyuruindex p{
+  align-items: center;
+  font-size: 25px;
+}
+
+.duyuruindex2{
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  width: 100%;
+  height: 70px;
+  background-color: #fe8300;
+  color: #ffffff;
+}
+
+.duyuruindex2 p{
+  align-items: center;
+  font-size: 15px;
+}
+
+.duyuruindex3{
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  width: 100%;
+  height: 90px;
+  background-color: #fe8300;
+  color: #ffffff;
+}
+
+.duyuruindex3 p{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: 1114px){
+  .duyuruindex{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1114px){
+  .duyuruindex2{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 686px){
+  .duyuruindex2{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 686px){
+  .duyuruindex3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+.menu{
+  display: none;
+}
+}
+
+@media screen and (max-width: 1050px){
+  .astrabig{
+    display: none;
+  }
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 1050px){
+    .styledyt{
+      display:block;
+    }
+  }
+    
+    @media screen and (min-width: 1049px){
+      .styledyt{
+        display: none;
+      }
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 601px){
+      .hakkindabtn{
+        display:block;
+      }
+    }
+      
+      @media screen and (min-width: 600px){
+        .hakkindabtn{
+          display: none;
+        }
+      }
