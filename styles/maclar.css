@@ -16,16 +16,16 @@ body div {
   gap: 20px;
 }
 .right img {
-  filter: drop-shadow(0px 0px 19px #ff9d0044);
+  filter: drop-shadow(0px 0px 79px #ff80004f);
   border-radius: 20px;
   width: 100%;
   animation: maclarani 1.4s ease-out;
 }
 .left h1 {
-  color: rgb(255, 136, 0);
+  color: rgb(255, 157, 0);
   top: 200px;
-  font-size: 40px;
-  text-shadow: 0 0 2px rgba(255, 196, 0, 0), 0 0 15px rgba(255, 196, 0, 0.346);
+  font-size: 35px;
+  text-shadow: 0 0 2px rgba(255, 136, 0, 0), 0 0 15px rgba(255, 153, 0, 0);
 }
 
 
@@ -53,8 +53,8 @@ div .left2alt{
 .left2 h1, .styled{
   font-size: 25px;
   padding: 10px;
-  color: rgb(255, 128, 0);
-  filter: drop-shadow(0px 0px 30px #000000b2);
+  color: rgb(255, 166, 0);
+  filter: drop-shadow(0px 0px 30px #fb8e00b2);
 }
 
 

@@ -107,17 +107,17 @@ height: auto;
 .sova:hover:last-child {
   margin: 0px;
   padding: 0px;
-  filter: drop-shadow(0px 0px 25px #ffae00de);
+  filter: drop-shadow(0px 0px 25px #ff8000b2);
   transform: scale(1.2);
 }
 
 
 .sova {
-  animation: oyuncularanim 1.2s ease-out;
+  animation: oyuncularanim 0.5s ease-out;
   z-index: 1;
   transition: 0.6s;
   cursor: pointer;
-  filter: drop-shadow(0px 0px 19px #ffbb006c);
+  filter: drop-shadow(0px 0px 99px #ff80003d);
 }
 
 

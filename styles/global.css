@@ -1,5 +1,5 @@
 * {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family:Arial, Helvetica, sans-serif, expanded
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
   background-size: auto;
 }
 a.styled {
-  animation: butonlarglobal 0.82s ease-in-out;
+  animation: butonlarglobal 0.4s ease-in-out;
   z-index: 2;
   text-align: center;
   width: 199px;
@@ -40,7 +40,7 @@ a.styled:hover {
   transform: scale(1.2);
 }
 a.styledindex {
-  animation: butonlarindex 1.2s ease-out;
+  animation: butonlarindex 0.5s ease-out;
   z-index: 2;
   text-align: center;
   width: 205px;
@@ -52,20 +52,45 @@ a.styledindex {
   border: 1px solid transparent;
   outline: none;
   cursor: pointer;
-  background: #8b6b0079;
-  transition: 0.4s;
+  background: #8b4a0079;
+  transition: 0.2s;
   transition-timing-function: ease-in-out;
-  box-shadow: 0 0 5px rgb(255, 196, 0), 0 0 25px rgb(255, 196, 0);
+  box-shadow: 0 0 5px rgb(255, 145, 0), 0 0 25px rgb(255, 145, 0);
   padding: 15px 30px;
   text-decoration: none;
   color: #ffffff;
 }
 a.styledindex:hover {
-  background: #ffbb00;
+  background: #ff9900;
+  transform: scale(1.2);
+}
+a.styledplayer {
+  animation: butonlarindex 0.5s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 105px;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #8b4a0079;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0 0 5px rgb(255, 187, 0), 0 0 25px rgb(255, 145, 0);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.styledplayer:hover {
+  background: #ff9900;
   transform: scale(1.2);
 }
 a.styleddiscord {
-  animation: butonlarindex 1.2s ease-in-out;
+  animation: butonlarindex 0.6s ease-in-out;
   z-index: 2;
   text-align: center;
   width: 205px;
@@ -77,7 +102,7 @@ a.styleddiscord {
   border: 1px solid transparent;
   outline: none;
   cursor: pointer;
-  background: #0142f385;
+  background: #0142f339;
   transition: 0.4s;
   box-shadow: 0 0 14px rgba(4, 0, 255, 0.575), 0 0 25px rgb(37, 53, 192);
   padding: 15px 30px;
@@ -91,7 +116,7 @@ a.styleddiscord:hover {
 
 
 a.styledyt {
-  animation: butonlaryt 1.4s ease-in-out;
+  animation: butonlarindex 0.65s ease-in-out;
   z-index: 2;
   text-align: center;
   width: 205px;
@@ -103,7 +128,7 @@ a.styledyt {
   border: 1px solid transparent;
   outline: none;
   cursor: pointer;
-  background: #f3010185;
+  background: #f301015a;
   transition: 0.4s;
   box-shadow: 0 0 14px rgba(255, 0, 0, 0.575), 0 0 25px rgb(192, 37, 37);
   padding: 15px 30px;
@@ -118,7 +143,7 @@ a.styledyt:hover {
 
 
 a.hakkindabtn {
-  animation: butonlarhaknd 1.6s ease-out;
+  animation: butonlarindex 0.9s ease-out;
   z-index: 2;
   text-align: center;
   width: 205px;
@@ -130,7 +155,7 @@ a.hakkindabtn {
   border: 1px solid transparent;
   outline: none;
   cursor: pointer;
-  background: #aa01f385;
+  background: #aa01f354;
   transition: 0.4s;
   box-shadow: 0 0 14px rgba(200, 0, 255, 0.575), 0 0 25px rgb(125, 37, 192);
   padding: 15px 30px;
@@ -142,29 +167,30 @@ a.hakkindabtn:hover {
   background: #a201f3;
 }
 
-a.maclarbtn {
-  animation: butonlarhaknd 1.2s ease-out;
+a.oyuncularbtn {
+  animation: butonlarindex 0.6s ease-out;
   z-index: 2;
   text-align: center;
-  width: 205px;
+  width: 305px;
   font-size: 23px;
   font-weight: bolder;
   letter-spacing: 1px;
   border-radius: 15px;
   text-transform: uppercase;
-  border: 1px solid transparent;
+  border: 12px orange;
   outline: none;
   cursor: pointer;
-  background: #f37e0196;
-  transition: 0.4s;
-  box-shadow: 0 0 14px rgba(255, 119, 0, 0.575), 0 0 25px rgb(192, 96, 37);
+  background: #ffffff00;
+  transition: 0.2s;
+  box-shadow: 0 0 24px rgba(255, 119, 0, 0.314), 0 0 45px rgba(192, 109, 37, 0.411);
   padding: 15px 30px;
   text-decoration: none;
-  color: #ffffff;
+  color: #ee971d;
 }
-a.maclarbtn:hover {
+a.oyuncularbtn:hover {
   transform: scale(1.2);
-  background: #f37a01;
+  background: #f36e01;
+  color: #ffffff;
 }
 
 
@@ -222,7 +248,7 @@ a.maclarbtn:hover {
     
     animation-delay: 7s;
     opacity: 0%;
-    transform: translateY(-500px);
+    transform: translateY(-100px);
   }
 }
 @keyframes kjindex {
