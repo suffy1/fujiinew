@@ -57,7 +57,7 @@ align-items: center;
   position: fixed;
   right: 0;
   width: 160px;
-  height: 75px;
+  height: 77px;
   background-color: #d2690069;
   border-left: 20px solid #fe8300;
   border-top: 4px solid #fe8300;
@@ -70,7 +70,7 @@ align-items: center;
 .menu ul {
   color: #fe8300;
   animation: butonlarglobals 1.3s ease-in-out;
-  list-style: disc;
+  list-style:outside;
   margin: 20px;
 }
 

@@ -43,21 +43,20 @@ a.styledindex {
   animation: butonlarindex 0.5s ease-out;
   z-index: 2;
   text-align: center;
-  width: 205px;
+  width: 220px;
   font-size: 23px;
   font-weight: bolder;
   letter-spacing: 1px;
   border-radius: 15px;
   text-transform: uppercase;
-  border: 1px solid transparent;
-  outline: none;
+  border: 12px orange;
+  outline:#f36e01;
   cursor: pointer;
   background: #8b4a0079;
   transition: 0.2s;
-  transition-timing-function: ease-in-out;
-  box-shadow: 0 0 5px rgb(255, 145, 0), 0 0 25px rgb(255, 145, 0);
+  box-shadow: 0 0 5px rgba(255, 145, 0, 0.851), 0 0 25px rgb(255, 149, 0);
   padding: 15px 30px;
-  text-decoration: none;
+  text-decoration:none;
   color: #ffffff;
 }
 a.styledindex:hover {
@@ -93,7 +92,7 @@ a.styleddiscord {
   animation: butonlarindex 0.6s ease-in-out;
   z-index: 2;
   text-align: center;
-  width: 205px;
+  width: 220px;
   font-size: 23px;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -119,7 +118,7 @@ a.styledyt {
   animation: butonlarindex 0.65s ease-in-out;
   z-index: 2;
   text-align: center;
-  width: 205px;
+  width: 220px;
   font-size: 23px;
   font-weight: bolder;
   letter-spacing: 1px;
