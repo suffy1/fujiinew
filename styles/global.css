@@ -9,11 +9,7 @@ html,
 body {
   height: 100%;
 }
-body {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: auto;
-}
+
 a.styled {
   animation: butonlarglobal 0.4s ease-in-out;
   z-index: 2;
@@ -228,20 +224,7 @@ a.oyuncularbtn:hover {
     animation-iteration-count: 4;
   }
 }
-@keyframes maclarani {
-  from {
-    animation-duration: 0.7s;
-    opacity: 0%;
-    transform: translateX(50px);
-  }
-}
-@keyframes maclarani2 {
-  from {
-    animation-duration: 0.7s;
-    opacity: 0%;
-    transform: translateY(50px);
-  }
-}
+
 @keyframes oyuncularanim {
   from {
     

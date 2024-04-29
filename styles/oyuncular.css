@@ -1,13 +1,18 @@
 
 body {
+  font-weight: bolder;
   background-color: #0f0e0e;
   background-image: url("Yeni_Proje_O.png");
   background-size: cover;
-  display:block;
-  flex-direction:column;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  display: block;
+  flex-direction: column;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  font-family:Arial, Helvetica, sans-serif, expanded
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .players img{
@@ -29,6 +34,7 @@ div {
 
 
 div .players{
+  flex-direction: column;
   width: 300px;
   height: auto;
   top: 40px;
@@ -37,7 +43,7 @@ div .players{
 
 .players img{
   justify-self:center;
-  max-width: 400px;
+  
   height: auto;
   }
 
@@ -137,3 +143,37 @@ height: auto;
 }
 
 
+a.oyuncularbtn {
+  animation: butonlarindex 0.6s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 305px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 12px orange;
+  outline: none;
+  cursor: pointer;
+  background: #ffffff00;
+  transition: 0.2s;
+  box-shadow: 0 0 24px rgba(255, 119, 0, 0.314), 0 0 45px rgba(192, 109, 37, 0.411);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ee971d;
+}
+a.oyuncularbtn:hover {
+  transform: scale(1.2);
+  background: #f36e01;
+  color: #ffffff;
+}
+
+@keyframes oyuncularanim {
+  from {
+    
+    animation-delay: 7s;
+    opacity: 0%;
+    transform: translateY(-100px);
+  }
+}

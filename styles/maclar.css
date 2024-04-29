@@ -3,9 +3,18 @@ body {
   overflow-x: hidden;
   background-image: url("../fotolar/wpmac.png");
   box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: left;
   padding: 50px;
+  align-items:center;
+  justify-content: center;
   gap: 20px;
   display: flex;
+  font-family:Arial, Helvetica, sans-serif, expanded
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bolder;
 }
 body div {
   display: flex;
@@ -28,7 +37,30 @@ body div {
   text-shadow: 0 0 2px rgba(255, 136, 0, 0), 0 0 15px rgba(255, 153, 0, 0);
 }
 
-
+a.styledindex {
+  animation: butonlarindex 0.5s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 220px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 12px orange;
+  outline:#f36e01;
+  cursor: pointer;
+  background: #8b4a0079;
+  transition: 0.2s;
+  box-shadow: 0 0 5px rgba(255, 145, 0, 0.851), 0 0 25px rgb(255, 149, 0);
+  padding: 15px 30px;
+  text-decoration:none;
+  color: #ffffff;
+}
+a.styledindex:hover {
+  background: #ff9900;
+  transform: scale(1.2);
+}
 
 
 div .left2alt{
