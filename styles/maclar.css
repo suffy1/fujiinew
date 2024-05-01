@@ -16,6 +16,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bolder;
 }
+
 body div {
   display: flex;
   justify-content: center;
@@ -24,12 +25,14 @@ body div {
   flex-direction: column;
   gap: 20px;
 }
+
 .right img {
   filter: drop-shadow(0px 0px 79px #ff80004f);
   border-radius: 20px;
   width: 100%;
   animation: maclarani 1.4s ease-out;
 }
+
 .left h1 {
   color: rgb(255, 157, 0);
   top: 200px;
@@ -57,6 +60,7 @@ a.styledindex {
   text-decoration:none;
   color: #ffffff;
 }
+
 a.styledindex:hover {
   background: #ff9900;
   transform: scale(1.2);
@@ -91,8 +95,18 @@ div .left2alt{
 
 
 
-
-
+@keyframes maclarani{
+  from{
+   opacity: 0%;
+   transform: translateX(50px)
+}
+  }
+  @keyframes maclarani2{
+    from{
+     opacity: 0%;
+     transform: translateY(50px)
+  }
+    }
 
 @media screen and (max-width: 943px){
   .right{
