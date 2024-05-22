@@ -10,6 +10,8 @@ body {
   z-index: 1;
 }
 
+
+
 .astrabig {
   left: -310px;
   top: 210px;
@@ -50,42 +52,39 @@ align-items: center;
 }
 
 
-
-
-.menu {
-  animation: sagmenuindex 0.9s ease-in-out;
+.menuarkaplan{
+  width: 460px;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.895);
   position: fixed;
-  right: 0;
-  width: 160px;
-  height: 77px;
-  background-color: #d2690069;
-  border-left: 20px solid #fe8300;
-  border-top: 4px solid #fe8300;
-  border-bottom: 4px solid #fe8300;
-  border-top-left-radius: 45px;
-  border-bottom-left-radius: 45px;
-
 }
 
-.menu ul {
-  color: #fe8300;
-  animation: butonlarglobals 1.3s ease-in-out;
-  list-style:outside;
-  margin: 20px;
+
+
+.menu{
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #fe8300;
+  width: 450px;
+  height: 285px;
+  z-index: 2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.menu video{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
 }
 
-.menu li { 
-  box-shadow: 10 0 120px, #00ff0d;
-  cursor: pointer;
-   color: rgb(255, 128, 0);
-  margin: 25px;
-  
-}
-
-.menu a{
- font-size: small;
-  color: white;
-  text-decoration: none;
+.menu p{
+color: white;
+margin-left: 147px;
 }
 
 .content {
@@ -106,6 +105,7 @@ span{
   height: 40px;
   background-color: #fe8300;
   color: #ffffff;
+  z-index: 1;
 }
 
 .duyuruindex p{
@@ -124,6 +124,7 @@ span{
   height: 70px;
   background-color: #fe8300;
   color: #ffffff;
+  z-index: 1;
 }
 
 .duyuruindex2 p{
@@ -142,6 +143,7 @@ span{
   height: 90px;
   background-color: #fe8300;
   color: #ffffff;
+  z-index: 1;
 }
 
 .duyuruindex3 p{
@@ -149,7 +151,68 @@ span{
   align-items: center;
   flex-direction: column;
   font-size: 12px;
+  
 }
+
+.isik {
+  width: 460px;
+  height: 460px;
+  rotate: 120px;
+  animation: isik1 1.7s ease-in-out ;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 10;
+  opacity: 40%
+}
+
+
+.menuu {
+  animation: sagmenuindex 0.9s ease-in-out;
+  position: fixed;
+  right: 0px;
+  width: 200px;
+  height: 155px;
+  background-color: #000000ba;
+  border: 4px solid #fe7f00;
+  border-right: 0;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+
+}
+
+.menuu ul {
+  color: #108f3c;
+  animation: butonlarglobals 1.3s ease-in-out;
+  list-style:outside;
+  margin: 20px;
+}
+
+.menuu li { 
+  box-shadow: 10 0 120px, #0dff00;
+  cursor: pointer;
+   color: #fe7f00;
+  margin: 25px;
+  
+}
+
+.menuu a{
+ font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes isik1 {
+  
+  from {
+    
+    opacity: 0%;
+    transform: translateY(-190px);
+  }
+}
+
+
+
 
 
 @media screen and (max-width: 1114px){
