@@ -60,6 +60,35 @@ a.styledindex:hover {
   color: white;
   transform: scale(1.1);
 }
+
+
+a.styledindex2 {
+  animation: butonlarindex 0.5s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 203px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 12px orange;
+  outline:#f36e01;
+  cursor: pointer;
+  background: #010000b1;
+  transition: 0.2s;
+  box-shadow: 0 0 5px rgba(255, 145, 0, 0.813), 0 0 15px rgba(255, 149, 0, 0.721);
+  padding: 15px 30px;
+  text-decoration:none;
+  color: #ff9100;
+}
+a.styledindex2:hover {
+  background: #ff9900;
+  color: white;
+  transform: scale(1.1);
+}
+
+
 a.styledplayer {
   animation: butonlarindex 0.5s ease-out;
   z-index: 2;
@@ -110,6 +139,32 @@ a.styleddiscord:hover {
   background: #0142f3;
 }
 
+a.styleddiscord2 {
+  animation: butonlarindex 0.6s ease-in-out;
+  z-index: 2;
+  text-align: center;
+  width: 203px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #0030b668;
+  transition: 0.4s;
+  box-shadow: 0 0 14px rgba(4, 0, 255, 0.575), 0 0 15px rgba(37, 53, 192, 0.622);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.styleddiscord2:hover {
+  transform: scale(1.1);
+  background: #0142f3;
+}
+
+
 
 a.styledyt {
   animation: butonlarindex 0.65s ease-in-out;
@@ -136,7 +191,30 @@ a.styledyt:hover {
   background: #f30101;
 }
 
-
+a.styledyt2 {
+  animation: butonlarindex 0.65s ease-in-out;
+  z-index: 2;
+  text-align: center;
+  width: 203px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #f301015a;
+  transition: 0.4s;
+  box-shadow: 0 0 14px rgba(255, 0, 0, 0.575), 0 0 25px rgb(192, 37, 37);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.styledyt2:hover {
+  transform: scale(1.1);
+  background: #f30101;
+}
 
 a.hakkindabtn {
   animation: butonlarindex 0.9s ease-out;
@@ -159,6 +237,31 @@ a.hakkindabtn {
   color: #ffffff;
 }
 a.hakkindabtn:hover {
+  transform: scale(1.1);
+  background: #a201f3;
+}
+
+a.hakkindabtn2 {
+  animation: butonlarindex 0.9s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 203px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #aa01f354;
+  transition: 0.4s;
+  box-shadow: 0 0 14px rgba(200, 0, 255, 0.575), 0 0 25px rgb(125, 37, 192);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.hakkindabtn2:hover {
   transform: scale(1.1);
   background: #a201f3;
 }

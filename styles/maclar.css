@@ -119,7 +119,11 @@ div .left2alt{
     display: none;
   }
   }
-
+  @media screen and (min-width: 944px){
+    .styledindex2{
+      display: none;
+    }
+    }
 @media screen and (max-width: 944px){
   .left2{
     display:block;
