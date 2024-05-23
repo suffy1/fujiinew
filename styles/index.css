@@ -78,6 +78,7 @@ align-items: center;
   border-top-right-radius: 15px;
 }
 .menu video{
+  animation: menu2 3s ease-in-out;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
@@ -225,7 +226,14 @@ span{
   }
 }
 
-
+@keyframes menu2 {
+  
+  from {
+    
+    opacity: 0%;
+    
+  }
+}
 
 @media screen and (max-width: 1114px){
   .duyuruindex{
@@ -331,6 +339,7 @@ span{
           display: none;
         }
       }
+
 
   
   
