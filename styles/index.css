@@ -78,18 +78,22 @@ align-items: center;
   border-top-right-radius: 15px;
 }
 .menu video{
-  animation: menu2 3s ease-in-out;
+  opacity: 0;
+  animation: menu2 3s ease-in-out 1.2s forwards;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
 }
 
-.menu p{
-color: white;
-  animation: menu2 3.3s ease-in-out;
-margin-left: 150px;
-text-shadow: 5px 0px 15px rgba(0, 0, 0, 0.592);
+.menu p {
+  opacity: 0;
+  position: relative;
+  animation: menu2 2.2s ease-in-out 1.2s forwards; /* 3.2s süresi, ease-in-out zamanlama fonksiyonu, 2s gecikme */
+  color: white;
+  margin-left: 150px;
+  text-shadow: 5px 0px 15px rgba(0, 0, 0, 0.592);
 }
+
 
 .content {
   margin-right: 1px; 
@@ -228,13 +232,14 @@ span{
 }
 
 @keyframes menu2 {
-  
   from {
-    
-    opacity: 0%;
-    
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
+
 
 @media screen and (max-width: 1114px){
   .duyuruindex{
@@ -340,7 +345,6 @@ span{
           display: none;
         }
       }
-
 
   
   
