@@ -23,6 +23,7 @@ body{
   }
 
   .baslik1 img {
+    animation: baslik 2.5s ease-out;
     max-width: 100%;   
     height: auto;  
 }
@@ -164,7 +165,13 @@ a.styled:hover {
     transform: translateY(-90px);
   }
 }
-
+@keyframes baslik {
+  from {
+    animation-delay: 1s;
+    opacity: 0%;
+    
+  }
+}
 
 @keyframes butonlarindex {
   from {
