@@ -60,8 +60,8 @@ div .players{
     background-color: #fe6a00;
     display: flex;
     position: fixed;
-    justify-content: center; /* Öğeleri yatay olarak merkezle */
-    align-items: center; /* Öğeleri dikey olarak merkezle */
+    justify-content: center; 
+    align-items: center; 
     z-index: 2;
   }
   
@@ -132,23 +132,7 @@ height: auto;
 }
 
 
-@media screen and (max-width: 599px){
-  .playersbottom{
-    display: none;
-  }
-  }
 
-@media screen and (max-width: 601px){
-  .playerstop{
-    display:block;
-  }
-}
-  
-  @media screen and (min-width: 600px){
-    .playerstop{
-      display: none;
-    }
-  }
 
 
 .altmenu{
@@ -182,8 +166,7 @@ height: auto;
 
 
 .sova {
-  animation-delay: 2s;
-  animation: oyuncularanim 0.5s ease-out;
+  animation: oyuncularanim 0.5s ease-in-out  ;
   z-index: 1;
   transition: 0.6s;
   cursor: pointer;

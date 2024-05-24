@@ -63,7 +63,7 @@ align-items: center;
 
 
 .menu{
-  animation: menu 1.3s ease-in-out, videoisik 1.4s ease-in-out 17.5s;
+  animation: menu 1.3s ease-in-out, videoisik 1.4s ease-in-out 17.5s, videoisik2 5.4s ease-in-out 41.5s;
   margin-top: 40px;
   align-items: center;
   justify-content: center;
@@ -88,7 +88,7 @@ align-items: center;
 .menu p {
   opacity: 0;
   position: relative;
-  animation: menu2 2.2s ease-in-out 1.2s forwards; /* 3.2s süresi, ease-in-out zamanlama fonksiyonu, 2s gecikme */
+  animation: menu2 2.2s ease-in-out 1.2s forwards; 
   color: white;
   margin-left: 150px;
   text-shadow: 5px 0px 15px rgba(0, 0, 0, 0.592);
@@ -270,6 +270,11 @@ span{
   display: none;
 }
 }
+@media screen and (max-width: 600px){
+  .mute-button{
+    display: none;
+  }
+  }
 
 @media screen and (max-width: 600px){
   .styledindex{
@@ -352,6 +357,46 @@ span{
         0% {filter: drop-shadow(0px 0px 0px #c2810000);}
         50%{filter: drop-shadow(0px 0px 89px #ff9d00a9);}
         100%{filter: drop-shadow(0px 0px 0px #ff950000);}
+      }
+
+      @keyframes videoisik2{
+        0% {filter: drop-shadow(0px 0px 0px #da6e0800);}
+        50%{filter: drop-shadow(0px 0px 80px #ff9d00a9);}
+        70%{filter: drop-shadow(0px 0px 209px #ff9d00);}
+        80%{filter: drop-shadow(0px 0px 80px #dd82037c);}
+        100%{filter: drop-shadow(0px 0px 0px #dd820300);}
+      }
+
+
+      @keyframes voicebutton {
+  
+        from {
+          
+          opacity: 0;
+          transform: translateY(90px);
+        }
+        to{
+          opacity: 1;
+        }
+      }
+
+      .mute-button {
+        opacity: 0;
+        animation: voicebutton 1.2s forwards 1s;
+        margin-bottom: -50px;
+        margin-right: -400px;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+      }
+        .mute-icon-on {
+        display: block;
+      }
+      
+      
+      .mute-icon-off {
         
-        
+        display: none;
       }
