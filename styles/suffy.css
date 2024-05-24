@@ -12,10 +12,10 @@ background-size: cover;
 }
 
 h1{
-    text-shadow: 20px 20px 30px rgb(0, 0, 0);
+    text-shadow: 20px 20px 30px #00000000;
 }
 p{
-    text-shadow: 20px 20px 20px rgb(0, 0, 0);
+    text-shadow: 0px 0px 20px #ff000000;
     font-size: 25px;
 }
 
@@ -57,11 +57,9 @@ p{
 
 .soltaraf{
     width: 1200px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(141, 41, 41, 0);
 }
-span{
-    color: rgb(255, 157, 0);
-}
+
 .soltaraf h1{
     animation: yazi2 1s ease-out;
     color: aliceblue;
@@ -75,11 +73,21 @@ span{
 }
 
 .sekil{
-    animation: sekil 1s  ease-in-out;
+    animation: sekil 1.8s  ease-in-out 0.7s forwards;
     position: fixed;
-    right: -100px;
+    right: -730px;
     z-index: 0;
+    
 }
+@keyframes sekil{
+    0%{
+        right: -740;
+    }
+    100%{
+        right: 0;
+    }
+ 
+    }
 .karakter{
     filter: drop-shadow(0px 0px 40px #0000007c);
     animation: karakter 1.6s  ease-out;
@@ -91,7 +99,14 @@ span{
 
 
 
-
+.soltaraf2{
+    top: 170px;
+    position: fixed;
+    width: 1109px;
+    height: 100px;
+    background: rgb(255,195,0);
+background: linear-gradient(79deg, rgba(255,195,0,1) 0%, rgba(255,137,6,1) 66%, rgba(215,113,24,1) 100%);
+}
 
 .soltaraf2 , .soltarafalt2 {
     z-index: 2;
@@ -110,6 +125,7 @@ span{
     align-items: center;
     flex-direction: row;
     margin-bottom: 200px;
+    
 }
 .soltaraf2 p{
     animation: yazi 1s ease-out;
@@ -123,16 +139,19 @@ span{
     
 }
 .sekil2{
-    animation: sekil2 1s ease-out;
+    animation: sekil2 1s ease-in-out 0.7s forwards;
     position: fixed;
     bottom: 0;
     z-index: 0;
+    opacity: 0;
 }
 .karakter2{
-    animation: sekil2 1.3s ease-out;
+    animation: sekil2 1.3s ease-in-out;
     position: fixed;
     bottom: -100px;
-z-index: 2;
+    z-index: 2;
+    height: 500px;
+    
 }
 
 .soltarafalt2 img{
@@ -169,7 +188,9 @@ z-index: 2;
 }
 
 
-
+span{
+    color: rgb(255, 166, 0);
+}
 
 
 
@@ -272,29 +293,27 @@ z-index: 2;
 }
    }
 
-   @keyframes sekil{
-    from{
-     opacity: 0%;
-     transform: translateX(257px)
- }
-    }
+   
     @keyframes sekil2{
         from{
-         opacity: 0%;
+         opacity: 0;
          transform: translateY(257px)
+     }
+     to{
+        opacity: 1;
      }
         }
 
         @keyframes yazi{
             from{
              opacity: 0%;
-             transform: translateY(-57px)
+             transform: translatex(-57px)
          }
             }
             @keyframes yazi2{
                 from{
                  opacity: 0%;
-                 transform: translateY(57px)
+                 transform: translatey(57px)
              }
                 }
 

@@ -94,10 +94,10 @@ a.styledplayer {
   z-index: 2;
   text-align: center;
   width: 105px;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: bolder;
   letter-spacing: 1px;
-  border-radius: 15px;
+  border-radius: 20px;
   text-transform: uppercase;
   border: 1px solid transparent;
   outline: none;
