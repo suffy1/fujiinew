@@ -47,6 +47,70 @@ div .players{
   height: auto;
   }
 
+  span{
+    color: #b24400;
+  }
+
+
+  .duyuruoyuncular {
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #fe6a00;
+    display: flex;
+    position: fixed;
+    justify-content: center; /* Öğeleri yatay olarak merkezle */
+    align-items: center; /* Öğeleri dikey olarak merkezle */
+    z-index: 2;
+  }
+  
+  .duyuruoyuncular p{
+    font-size: 30px;
+    color: white;
+  }
+
+  .duyuruoyuncular p,
+  .duyuruoyuncular a {
+    margin: 0; 
+
+  }
+  
+  .duyuruoyuncular a {
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: -30px; 
+  }
+  
+.duyuruisik{
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  bottom: -5px;
+  animation: duyuruisik 6s infinite ease-in-out;
+  z-index: 0;
+}
+
+  @keyframes duyuruisik{
+    0% {opacity: 0;}
+    25%{opacity: 55%;}
+    50%{opacity: 25%;}
+    75%{opacity: 100%;}
+    85%{opacity: 50%;}
+    100%{opacity: 0%;}
+    
+  }
+
+  @media screen and (max-width: 920px){
+    .duyuruoyuncular{
+      display: none;
+    }
+  }
+  @media screen and (max-height: 794px){
+    .duyuruoyuncular{
+      display: none;
+    }
+  }
 
 div .playerstop{
   flex-direction: column;
