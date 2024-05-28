@@ -26,7 +26,7 @@ a.styled {
   background: #8b6b0079;
   transition: 0.4s;
   transition-timing-function: ease-in-out;
-  box-shadow: 0 0 5px rgb(255, 196, 0), 0 0 25px rgb(255, 196, 0);
+  box-shadow: 0 0 5px rgb(255, 234, 0), 0 0 25px rgb(255, 196, 0);
   padding: 15px 30px;
   text-decoration: none;
   color: #ffffff;
@@ -46,11 +46,11 @@ a.styledindex {
   border-radius: 15px;
   text-transform: uppercase;
   border: 12px orange;
-  outline:#f36e01;
+  outline:#f3aa01;
   cursor: pointer;
   background: #010000b1;
   transition: 0.2s;
-  box-shadow: 0 0 5px rgba(255, 145, 0, 0.813), 0 0 15px rgba(255, 149, 0, 0.721);
+  box-shadow: 0 0 5px rgba(255, 179, 0, 0.813), 0 0 15px rgba(255, 149, 0, 0.721);
   padding: 15px 30px;
   text-decoration:none;
   color: #ff9100;
@@ -73,7 +73,7 @@ a.styledindex2 {
   border-radius: 15px;
   text-transform: uppercase;
   border: 12px orange;
-  outline:#f36e01;
+  outline:#f3b201;
   cursor: pointer;
   background: #010000b1;
   transition: 0.2s;
@@ -262,7 +262,7 @@ a.hakkindabtn2 {
   color: #ffffff;
 }
 a.hakkindabtn2:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   background: #a201f3;
 }
 

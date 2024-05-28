@@ -88,7 +88,7 @@ body{
 a.styled {
   position: relative;
   text-align: center;
-  width: 199px;
+  width: 299px;
   font-size: 23px;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -98,7 +98,7 @@ a.styled {
   outline: none;
   cursor: pointer;
   background: #ffffff47;
-  transition: 0.8s;
+  transition: 0.2s;
   transition-timing-function: ease-in-out;
   box-shadow: 0 0 125px rgba(177, 2, 226, 0.556), 0 0 235px rgb(147, 44, 191);
   padding: 15px 30px;
@@ -106,8 +106,9 @@ a.styled {
   color: #ffffff;
 }
 a.styled:hover {
-  background: #a316ee;
+  background: #ffffff;
   transform: scale(1.2);
+  color: rgb(194, 105, 254);
 }
 
 
