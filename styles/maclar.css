@@ -26,25 +26,98 @@ body div {
   gap: 20px;
 }
 
+
+.left video {
+  animation: maclaranivid 0.7s ease-out;
+  width: 450px;
+  height: auto;
+  border-radius: 30px;
+  border: 5px solid orange; /* Added orange border */
+}
+
+.left .video-caption {
+  margin-top: -10px;
+  font-size: 18px;
+  color: orange;
+  text-align: center;
+  font-weight: bold;
+}
+
+.videoarkaplan div {
+  color: orange;
+  width: 450px;
+  height: 700px;
+}
+
+.mute-icon-off2, .mute-icon-on2 {
+  animation: maclaranivid 1 0.7s 1 ease-out;
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  left: 320px; /* Adjusted 10px further to the right */
+  z-index: 10;
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0)); /* Added shadow effect */
+}
+
+.left {
+  position: relative; /* Ensure the parent container is positioned */
+}
+
+.left video {
+  position: relative; /* Ensure the video is positioned */
+}
+
+.mute-icon-off2, .mute-icon-on2 {
+  position: relative;
+  bottom: 100px; /* Adjusted 80px higher from the previous position */
+  left: 190px; /* Adjusted 10px further to the right */
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0)); /* Added shadow effect */
+  z-index: 20; /* Ensure it appears above the video */
+}
+
+.mute-icon-off2:hover, .mute-icon-on2:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .right img {
+  background-color: #00000062;
+  border: #f3a601 solid 3px;
   filter: drop-shadow(0px 0px 79px #ff80004f);
-  border-radius: 20px;
+  border-radius: 50px;
   width: 100%;
   animation: maclarani 1.4s ease-out;
 }
 
 .left h1 {
-  color: rgb(255, 157, 0);
+  color: rgb(255, 183, 0);
   top: 200px;
   font-size: 35px;
   text-shadow: 0 0 2px rgba(255, 136, 0, 0), 0 0 15px rgba(255, 153, 0, 0);
 }
 
 a.styledindex {
-  animation: butonlarindex 0.5s ease-out;
+  animation: maclarani25 2.5s ease-out;
   z-index: 2;
   text-align: center;
-  width: 220px;
+  width: 200px;
   font-size: 23px;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -66,6 +139,31 @@ a.styledindex:hover {
   transform: scale(1.2);
 }
 
+a.maclarbtn {
+  animation: maclarani25 1s ease-out;
+  z-index: 2;
+  text-align: center;
+  width: 393px;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: 12px orange;
+  outline:#f3aa01;
+  cursor: pointer;
+  background: #010000b1;
+  transition: 0.2s;
+  box-shadow: 0 0 5px rgba(255, 179, 0, 0.813), 0 0 15px rgba(255, 149, 0, 0.721);
+  padding: 15px 30px;
+  text-decoration:none;
+  color: #ff9100;
+}
+a.maclarbtn:hover {
+  background: #ff9900;
+  color: white;
+  transform: scale(1.1);
+}
 
 div .left2alt{
   margin-top: 50px;
@@ -93,21 +191,53 @@ div .left2alt{
   filter: drop-shadow(0px 0px 30px #fb8e00b2);
 }
 
-
-
+.video-caption p{
+  animation: maclaranivid 1.7s ease-out;
+}
+.left h1{
+  animation: maclarani25 1s ease-out;
+  color: rgb(208, 125, 0);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.left p{
+  animation: maclarani26 1s ease-out;
+  color: rgb(208, 125, 0);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 @keyframes maclarani{
   from{
    opacity: 0%;
    transform: translateX(50px)
 }
   }
+  @keyframes maclaranivid{
+    from{
+     opacity: 0%;
+     transform: translateY(-50px)
+  }
+    }
   @keyframes maclarani2{
     from{
      opacity: 0%;
      transform: translateY(50px)
   }
     }
-
+    @keyframes maclarani25{
+      from{
+       opacity: 0%;
+       transform: translateY(-50px)
+    }
+      }
+    @keyframes maclarani26{
+      from{
+       opacity: 0%;
+       transform: translateY(50px)
+    }
+      }
 @media screen and (max-width: 943px){
   .right{
     display: none;

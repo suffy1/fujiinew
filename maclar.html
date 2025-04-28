@@ -16,14 +16,55 @@
 
     
     <div class="left">
-      
-      <a href="index.html" class="styledindex">Home Page</a>
+      <h1 class="butonp">LAST 2 MATCHES IN 30 DAYS</h1>
+      <a href="index.html" class="maclarbtn">Home Page</a>
+      <div class="videoarkaplan">
+      <video autoplay muted loop id="myvideo2">
+        <source src="fotolar/lv_0_20240522163420.mp4">
+      </video>
+      <p class="video-caption">CLIP OF THE WEEK</p>
+      <img src="fotolar/mute.png" class="mute-icon-off2" style="display: block;" onclick="toggleMute2()" />
+      <img src="fotolar/volume.png" class="mute-icon-on2" style="display: none;" onclick="toggleMute2()" />
+      </div>
     </div>
+
+    <script>
+      function toggleMute2() {
+      var video = document.getElementById("myvideo2");
+      var iconOn = document.querySelector(".mute-icon-on2");
+      var iconOff = document.querySelector(".mute-icon-off2");
+
+      if (video.muted) {
+        video.muted = false;
+        iconOn.style.display = "block";
+        iconOff.style.display = "none";
+      } else {
+        video.muted = true;
+        iconOn.style.display = "none";
+        iconOff.style.display = "block";
+      }
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+      var video = document.getElementById("myvideo2");
+      var iconOn = document.querySelector(".mute-icon-on2");
+      var iconOff = document.querySelector(".mute-icon-off2");
+
+      if (video.muted) {
+        iconOn.style.display = "none";
+        iconOff.style.display = "block";
+      } else {
+        iconOn.style.display = "block";
+        iconOff.style.display = "none";
+      }
+      });
+    </script>
 
 
     <div class="right">
       <img src="fotolar/maç sonucu NEW.png" class="maç-sonucu-1" />
       
+      <img src="fotolar/maç sonucu NEW2.png" class="maç-sonucu-1" />
     </div>
 
 
@@ -31,7 +72,7 @@
     <div class="left2">
       
       <img src="fotolar/maç sonucu NEW.png" class="maç-sonucu-1" />
-      
+      <img src="fotolar/maç sonucu NEW2.png" class="maç-sonucu-1" />
       
    <div class="left2alt">
    
@@ -40,7 +81,39 @@
 
    </div>
     
-
+   <script>
+    function toggleMute() {
+   var video = document.getElementById("myvideo");
+   var iconOn = document.querySelector(".mute-icon-on");
+   var iconOff = document.querySelector(".mute-icon-off");
+ 
+   if (video.muted) {
+     video.muted = false;
+     iconOn.style.display = "block";
+     iconOff.style.display = "none";
+   } else {
+     video.muted = true;
+     iconOn.style.display = "none";
+     iconOff.style.display = "block";
+   }
+ }
+ 
+ 
+ document.addEventListener("DOMContentLoaded", function() {
+   var video = document.getElementById("myvideo");
+   var iconOn = document.querySelector(".mute-icon-on");
+   var iconOff = document.querySelector(".mute-icon-off");
+ 
+   if (video.muted) {
+     iconOn.style.display = "none";
+     iconOff.style.display = "block";
+   } else {
+     iconOn.style.display = "block";
+     iconOff.style.display = "none";
+   }
+ });
+ 
+     </script>
     
   </body>
 </html>
